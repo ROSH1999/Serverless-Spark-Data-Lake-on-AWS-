@@ -1,0 +1,9 @@
+# Copy to terraform.tfvars to override defaults. terraform.tfvars is git-ignored.
+
+region  = "us-east-1"
+project = "sparkify-lake"
+
+# emr_release_label   = "emr-7.14.0"
+# max_vcpu            = 8
+# max_memory_gb       = 32
+# enable_glue_catalog = true

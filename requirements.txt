@@ -1,0 +1,5 @@
+# pyspark is pinned to the Spark line that EMR Serverless emr-7.x runs (3.5.x),
+# so what works on your laptop works in the cloud. Requires Java 17 or 21.
+pyspark==3.5.8
+pyarrow>=17      # only for inspecting the Parquet output with pandas
+pandas>=2.2
